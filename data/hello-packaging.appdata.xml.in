@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.github.pgonzalezc.eos-vala-hello-again</id>
+    <metadata_license>CC0</metadata_license>
+    <name>_(hello-again)</name>
+    <summary>_(hello world improved)</summary>
+    <description>
+        <p>_(Una mejora sobre la aplicacion de hello world)</p>
+    </description>
+</component>

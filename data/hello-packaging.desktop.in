@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=_(Hello Again)
+Name=_(Hello Packagings)
 GenericName=_(Hello World App)
 Comment=_(Prueba de la utilización de Vala y Gtk)
 Categories=Utility;Education
-Exec=com.github.pgonzalezc.eos-vala-hello-again
-Icon=com.github.pgonzalezc.eos-vala-hello-again
+Exec=com.github.pgonzalezc.eos-vala-hello-packaging
+Icon=com.github.pgonzalezc.eos-vala-hello-packagings
 Terminal=false
 Type=Application
 Keywords=Hello;World;Example;

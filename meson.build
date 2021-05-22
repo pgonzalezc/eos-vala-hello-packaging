@@ -1,5 +1,5 @@
 # Nombre del proyecto y lenguaje de programación
-project('com.github.pgonzalezc.eos-vala-hello-again','vala','c')
+project('com.github.pgonzalezc.eos-vala-hello-packaging','vala','c')
 
 i18n = import('i18n')
 add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),language:'c')
@@ -17,7 +17,7 @@ executable(
 
 #Translate and install our .desktop file
 i18n.merge_file(
-    input: join_paths('data', 'hello-again.desktop.in'),
+    input: join_paths('data', 'hello-packaging.desktop.in'),
     output: meson.project_name() + '.desktop',
     po_dir: join_paths(meson.source_root(), 'po'),
     type: 'desktop',
@@ -27,7 +27,7 @@ i18n.merge_file(
 
 #Translate and install our .appdata file
 i18n.merge_file(
-    input: join_paths('data', 'hello-again.appdata.xml.in'),
+    input: join_paths('data', 'hello-packaging.appdata.xml.in'),
     output: meson.project_name() + '.appdata.xml',
     po_dir: join_paths(meson.source_root(), 'po'),
     install: true,
